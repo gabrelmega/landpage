@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.sectionone {
+    display: flex;
+    background-color: #1F2937;
+    height: 600px;
+    margin: 0;
+}
+
+.sectiontwo {
+    display: flex;
+    height: 100px;
+}
+
+.sectionthree {
+    display: flex;
+    height: 100px;
+}
+
+.sectionfour {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
