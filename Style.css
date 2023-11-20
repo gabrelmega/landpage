@@ -1,33 +1,66 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
     padding: 0;
-}
-
-.sectionone {
-    display: flex;
-    background-color: #1F2937;
-    height: 600px;
     margin: 0;
 }
 
-.sectiontwo {
+ul {
     display: flex;
-    height: 100px;
-}
-
-.sectionthree {
-    display: flex;
-    height: 100px;
-}
-
-.sectionfour {
-    display: flex;
-    background-color: #E5E7EB;
-    height: 100px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 .header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #1F2937;
+    padding-left: 32px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links {
+
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.content-one {
+    display: flex;
+    background-color: #1F2937;
+    height: 600px;
+    flex-direction: column;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7Eb;
 }
