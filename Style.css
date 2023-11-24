@@ -21,7 +21,8 @@ ul {
     justify-content: space-between;
     padding: 16px;
     background-color: #1F2937;
-    padding-left: 32px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo {
@@ -39,10 +40,11 @@ a {
 .content-one {
     display: flex;
     background-color: #1F2937;
-    height: 500px;
-    flex-direction: column;
+    height: 400px;
     padding-left: 200px;
-
+    padding-right: 200px;
+    gap: 110px;
+    padding-top: 100px;
 }
 
 .hero {
@@ -68,7 +70,15 @@ button {
     margin-top: 0;
 }
 
-.image {
-    background-color: #1F2937;
+.texts-and-button {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
 
+.image-one {
+    display: flex;
+    height: 225px;
+    margin: 0;
+    padding: 0;
 }
